@@ -1,0 +1,40 @@
+header {
+  background: #fff;
+  display: block;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 999999;
+}
+
+header div.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  padding: 12px 15px;
+  min-width: 1009px;
+  max-width: 1676px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fff;
+  margin: 0 auto 0 auto;
+}
+
+div.purchase-guide {
+  padding-top: 30px;
+}
+/*# sourceMappingURL=Sass.css.map */
